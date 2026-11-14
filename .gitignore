@@ -1,0 +1,18 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Lock files and runtime artifacts
+*.lock
+*.log
+/tmp/corner_hud_daemon.lock
+
+# Editor / OS files
+.directory
+*~
+*.swp
+*.swo
+.DS_Store
+.vscode/
+.idea/
