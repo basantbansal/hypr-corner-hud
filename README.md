@@ -6,6 +6,10 @@
 
 A sleek, lightweight, frosted-glass corner HUD and quick-settings radial widget designed for **Hyprland** and Wayland compositors, built with [Quickshell](https://quickshell.outfoxxed.me/).
 
+<p align="center">
+  <img src="assets/demo.gif" alt="Hypr Corner HUD Demo" width="340" />
+</p>
+
 ---
 
 ## ✨ Features
@@ -108,6 +112,9 @@ bind = $mainMod, C, exec, quickshell -p ~/.config/corner-hud ipc call corner-hud
 
 ```text
 hypr-corner-hud/
+├── assets/              # Demo video and animated preview GIF
+│   ├── demo.gif
+│   └── demo.mp4
 ├── CornerHudDaemon.sh   # Background supervisor ensuring single instance
 ├── shell.qml            # Quickshell LayerShell UI & logic
 ├── install.sh           # Helper script for setup & dependency verification
